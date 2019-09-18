@@ -1,0 +1,321 @@
+*
+{
+  margin: 0px;
+  padding: 0px;
+}
+body
+{
+  background-color: white;
+}
+/*-----------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------*/
+
+#menu
+  {
+      margin: 0px;
+    padding: 0px;
+    display: flex;
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    background-color:#372f2d;
+    color:#fcfc04;
+    list-style: none;
+    text-transform: none;
+    font-weight: 300;
+    font-family: 'Lato', Arial, sans-serif;
+    line-height: 60px;
+    max-width:1100px;
+  }
+  #menu li
+  {
+    list-style: none;
+    position: relative;
+    color:#fcfc04;
+  }
+  #menu li a
+  {
+    height: 50px;
+    line-height: 50px;
+    padding:0 20px ;
+    color:#fcfc04;
+    text-decoration:none; ;
+    display:block;
+    list-style: none;
+    cursor: pointer;
+  }
+  #menu > li:last-child
+  {
+    float: right;
+    border-right: none;
+  }
+  #menu > li:last-child > a 
+  {
+    padding: 0 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+    width: 100%;
+    align-items: right;
+    text-align: right;
+  }
+  #menu > li > a 
+  {
+    padding: 0 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+  }
+  #sidebar
+  {
+    position: fixed;
+    width: 200px;
+    height: 100%;
+    background-color: #372f2d;
+    left: -200px;
+    top: 50px;
+  }
+  #sidebar.active
+  {
+    left: 0px;
+  }
+  #sidebar li
+  {
+    border-bottom: 1px solid #fcfc04;
+    color:#fcfc04;
+    list-style: none;
+    text-align: center;
+  }
+
+
+
+  @media screen and (max-width: 980px) and (min-width: 340px)
+  {
+    #menu
+    {
+      height: auto;
+      width: 100%;
+      text-align: center;
+      display: flex;
+      left: 0px;
+      right: 0px;
+    }
+    #menu li 
+    {
+    list-style: none;
+    position: relative;
+      width: 100%;
+      padding: 0px;
+      margin: 0px;
+      height: auto;
+    }
+    #menu li a
+    {
+      width: 100%;
+      padding: 0px;
+      margin: 0px;
+      height: 100px;
+      font-size: 12px;
+      line-height: 40px;
+      height: 40px;
+    }
+
+  #menu > li:last-child > a 
+  {
+    padding: 0 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+    width: 100%;
+    align-items: right;
+    text-align: right;
+  }
+    #sidebar
+    {
+      position: fixed;
+      width: 200px;
+      height: 100%;
+      left: -200px;
+      padding:0px;
+      margin: 0px;
+      top: 6%;    
+    }
+    #sidebar li
+  {
+    color:#5f6f81;
+    list-style: none;
+    text-align: center;
+    height: 10%;
+    width: 100%;
+  }
+
+    }
+
+  @media screen and (max-width: 339px) and (min-width: 0px)
+  {
+    .ho
+    {
+      display: none;
+    }
+    .hos
+    {
+      display: block;
+    }
+    #menu
+    {
+      height: auto;
+      width: 100%;
+      text-align: center;
+      display: flex;
+      left: 0px;
+      right: 0px;
+    }
+    #menu li 
+    {
+    list-style: none;
+    position: relative;
+      height: auto;
+    }
+    .gss
+    {
+      width: 39%;
+      align-items: left;
+      text-align: left;
+    }
+    #menu li a
+    {
+      width: 100%;
+      padding: 0px;
+      margin: 0px;
+      height: 50px;
+    }
+     #menu > li:last-child > a 
+  {
+    align-items: right;
+    text-align: right;
+  }
+    #sidebar
+    {
+      position: fixed;
+      width: 100%;
+      height: 100%;
+      left: -100%;
+      padding:0px;
+      margin: 0px;  
+      top: 7%;  
+    }
+    #sidebar li
+  {
+    color:#5f6f81;
+    list-style: none;
+    text-align: center;
+    height: 10%;
+    width: 100%;
+  }
+
+    }
+
+    .adss
+    {
+      height: 250px;
+    }
+
+
+  @media screen and (max-width: 980px) and (min-width: 340px)
+  {
+    .adss
+    {
+      width: 33.33%;
+      height: 180px;
+      margin: 0px;
+      padding: 0px;
+      padding: 10px;
+      overflow-x: auto;
+      overflow-y: hidden;
+      float: right;
+    }
+    
+  }
+  @media screen and (max-width: 339px) and (min-width: 0px)
+  {
+    .adss
+    {
+      width: 100%;
+      height: 180px;
+      margin: 0px;
+      padding: 0px;
+      padding: 10px;
+    }
+  }
+
+  .forms
+  {
+    width: 100%;
+    padding: 20px;
+    border-radius: 5px;
+    background-color:#372f2d;
+    color:#fcfc04;
+  }
+  #btn
+  {
+    background-color: #fcfc04;
+    color: #372f2d;
+  }
+  .index
+  {
+    height: auto;
+    padding: 80px;
+  }
+  .news_slide
+  {
+    color: white;
+  }
+  #dash
+  {
+    background-color: gray;
+    height: 500px;
+    top: 100px;
+    margin-bottom: 50px;
+  }
+
+  .boxss
+  {
+    background-color: white;
+    height: 50px;
+    margin-top: 20px;
+  }
+
+  #icons i
+  {
+    font-size: 50px;
+    background-color: gray;
+    width: 50%;
+    text-align: center;
+    color: green;
+  }
+  #names 
+  {
+    background-color: gray;
+    height: 100%;
+    width: 50%;
+    text-align: center;
+    color: green;
+    float: right;
+    font-weight: bold;
+  }
+  @media screen and (max-width: 980px) and (min-width: 340px)
+  {
+  #dash
+  {
+    background-color: yellow;
+    width: 100%;
+    margin: 0px;
+  }
+
+  #dash1
+  {
+    display: none;
+  }
+
+ 
+  }
