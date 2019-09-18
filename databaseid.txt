@@ -1,0 +1,5 @@
+
+DataBase Host     : localhost:3306
+DataBase Name     : paisauin_paisau
+DataBase Username : paisauin_paisaui
+DataBase Password : Paisa@123
